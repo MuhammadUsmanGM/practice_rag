@@ -1,0 +1,29 @@
+{
+  "url": "https://panaversity.org/login",
+  "success": true,
+  "status_code": 200,
+  "depth": 2,
+  "title": null,
+  "cleaned_html": "<html>\n<head><title>Login | Panaversity</title></head>\n<body>\n<header><div>\n<a href=\"/\"><img alt=\"Panaversity Logo\" width=\"3840\" height=\"1816\" src=\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.19bb6506.webp&amp;w=3840&amp;q=75\"></a><nav><a href=\"/flagship-program\">Flagship-Program</a><a href=\"/flagship-program/courses\">Courses</a><a href=\"/certifications\">Certifications</a><a href=\"https://ai.panaversity.org\"><div><span>StudentBot</span></div></a></nav><div><div><div><div><a href=\"/register\"><span>Get Started</span></a></div></div></div></div>\n</div></header><main><div><div>\n<div><h2>Login</h2></div>\n<div><div><form>\n<div>\n<div>\n<label>Email</label><input>\n</div>\n<div>\n<label>Password</label><div><input></div>\n</div>\n<a href=\"/reset-password\">Forgot password?</a>\n</div> <button>Login</button><p>Don't have an account?  <a href=\"/register\"><span>Register</span></a></p>\n</form></div></div>\n</div></div></main><footer><div><div>\n<div><div>\n<a href=\"/\"><img alt=\"Panaversity logo\" width=\"3840\" height=\"1816\" src=\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo2.821de3f5.webp&amp;w=3840&amp;q=75\"></a><p>Panaversity is a cloud-native learning platform for Agentic AI, robotics, and next-gen AI skills.</p>\n<div>\n<a href=\"https://facebook.com/panaversity/\"></a><a href=\"https://www.instagram.com/panaversity/?igsh=cmljY3A2bmcyNzl3#\"></a><a href=\"https://www.youtube.com/channel/UCV1ZbnHzA7FwG7XXYYzE84w\"></a><a href=\"https://www.linkedin.com/company/panaversity/\"></a>\n</div>\n</div></div>\n<div>\n<h3>Company</h3>\n<ul>\n<li><a href=\"/#about\">About Us</a></li>\n<li><a href=\"/flagship-program\">Flagship Program</a></li>\n<li><a href=\"/flagship-program/courses\">Courses</a></li>\n<li><a href=\"/terms-and-conditions\">Terms &amp; Conditions</a></li>\n<li><a href=\"/certifications\">Certifications</a></li>\n</ul>\n</div>\n<div>\n<h3>Support</h3>\n<ul>\n<li><a href=\"/contact\">Contact Us</a></li>\n<li><a href=\"/team\">Our Team</a></li>\n<li><a href=\"/privacy-policy\">Privacy Policy</a></li>\n<li><a href=\"/panaversity_guide.pdf\">How To Enroll</a></li>\n<li><a href=\"/#faqs\">FAQs</a></li>\n</ul>\n</div>\n<div>\n<h3>Join Our Community</h3>\n<div>\n<a href=\"https://whatsapp.com/channel/0029VanobNVHbFV2oZLXX125\"><span>WhatsApp Community</span></a><p>Join our WhatsApp community for latest AI updates &amp; discussions.</p>\n</div>\n</div>\n</div></div>\n<div>© Copyright <!-- -->2025<!-- --> Panaversity, Inc.</div></footer><aside><p>We use cookies to ensure user get the best experience on our website. Checkout our <a href=\"/privacy-policy#consent-policy\">Consent Policy.</a></p>\n<div>\n<button>Accept</button><button>Reject</button>\n</div></aside><!--$--><!--/$--><!--$--><!--/$-->\n</body>\n</html>",
+  "markdown": "[![Panaversity Logo](https://panaversity.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.19bb6506.webp&w=3840&q=75)](https://panaversity.org/)[Flagship-Program](https://panaversity.org/flagship-program)[Courses](https://panaversity.org/flagship-program/courses)[Certifications](https://panaversity.org/certifications)[StudentBot](https://ai.panaversity.org)\n[Get Started](https://panaversity.org/register)\n## Login\nEmail\nPassword\n[Forgot password?](https://panaversity.org/reset-password)\nLogin\nDon't have an account? [Register](https://panaversity.org/register)\n[![Panaversity logo](https://panaversity.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo2.821de3f5.webp&w=3840&q=75)](https://panaversity.org/)\nPanaversity is a cloud-native learning platform for Agentic AI, robotics, and next-gen AI skills.\n[](https://facebook.com/panaversity/)[](https://www.instagram.com/panaversity/?igsh=cmljY3A2bmcyNzl3)[](https://www.youtube.com/channel/UCV1ZbnHzA7FwG7XXYYzE84w)[](https://www.linkedin.com/company/panaversity/)\n### Company\n  * [About Us](https://panaversity.org/#about)\n  * [Flagship Program](https://panaversity.org/flagship-program)\n  * [Courses](https://panaversity.org/flagship-program/courses)\n  * [Terms & Conditions](https://panaversity.org/terms-and-conditions)\n  * [Certifications](https://panaversity.org/certifications)\n\n\n### Support\n  * [Contact Us](https://panaversity.org/contact)\n  * [Our Team](https://panaversity.org/team)\n  * [Privacy Policy](https://panaversity.org/privacy-policy)\n  * [How To Enroll](https://panaversity.org/panaversity_guide.pdf)\n  * [FAQs](https://panaversity.org/#faqs)\n\n\n### Join Our Community\n[WhatsApp Community](https://whatsapp.com/channel/0029VanobNVHbFV2oZLXX125)\nJoin our WhatsApp community for latest AI updates & discussions.\n© Copyright 2025 Panaversity, Inc.\nWe use cookies to ensure user get the best experience on our website. Checkout our [Consent Policy.](https://panaversity.org/privacy-policy#consent-policy)\nAcceptReject\n",
+  "chunks": null,
+  "metadata": {
+    "title": "Login | Panaversity",
+    "description": "Access your Panaversity account. Login to manage your courses, track your learning progress, and stay connected with the latest AI-powered learning opportunities.",
+    "keywords": null,
+    "author": null,
+    "og:title": "Panaversity",
+    "og:description": "Learn Agentic AI with AI-powered Panaversity.",
+    "og:url": "https://panaversity.org",
+    "og:site_name": "Panaversity: AI-Powered Online University",
+    "og:image": "https://panaversity.org/logos/logo.webp",
+    "og:image:alt": "Panaversity Logo",
+    "twitter:card": "summary",
+    "twitter:site": "Panaversity: AI-Powered Online University",
+    "twitter:title": "Panaversity",
+    "twitter:description": "Learn Agentic AI with AI-powered Panaversity.",
+    "twitter:image": "https://panaversity.org/logos/logo.webp",
+    "depth": 2,
+    "parent_url": "https://panaversity.org/register"
+  }
+}

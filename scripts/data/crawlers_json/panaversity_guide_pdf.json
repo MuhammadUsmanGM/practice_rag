@@ -1,0 +1,18 @@
+{
+  "url": "https://panaversity.org/panaversity_guide.pdf",
+  "success": true,
+  "status_code": 200,
+  "depth": 1,
+  "title": null,
+  "cleaned_html": "<html></html>",
+  "markdown": "\n",
+  "chunks": null,
+  "metadata": {
+    "title": null,
+    "description": null,
+    "keywords": null,
+    "author": null,
+    "depth": 1,
+    "parent_url": "https://panaversity.org/"
+  }
+}

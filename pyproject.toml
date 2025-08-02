@@ -1,0 +1,29 @@
+[project]
+name = "practice-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Muhammad Usman GM", email = "muhammadusman75425965etc@gamil.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "aiofiles>=24.1.0",
+    "chainlit>=2.6.4",
+    "crawl4ai>=0.7.2",
+    "google-generativeai>=0.8.5",
+    "openai>=1.98.0",
+    "openai-agents>=0.2.4",
+    "protobuf>=5.29.5",
+    "python-dotenv>=1.1.1",
+    "qdrant-client>=1.15.1",
+    "redis>=6.2.0",
+    "tqdm>=4.67.1",
+]
+
+[project.scripts]
+practice-rag = "practice_rag:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
