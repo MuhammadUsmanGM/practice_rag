@@ -345,11 +345,11 @@ wheels = [
 
 [[package]]
 name = "certifi"
-version = "2025.7.14"
+version = "2025.8.3"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/b3/76/52c535bcebe74590f296d6c77c86dabf761c41980e1347a2422e4aa2ae41/certifi-2025.7.14.tar.gz", hash = "sha256:8ea99dbdfaaf2ba2f9bac77b9249ef62ec5218e7c2b2e903378ed5fccf765995", size = 163981 }
+sdist = { url = "https://files.pythonhosted.org/packages/dc/67/960ebe6bf230a96cda2e0abcf73af550ec4f090005363542f0765df162e0/certifi-2025.8.3.tar.gz", hash = "sha256:e564105f78ded564e3ae7c923924435e1daa7463faeab5bb932bc53ffae63407", size = 162386 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/4f/52/34c6cf5bb9285074dc3531c437b3919e825d976fde097a7a73f79e726d03/certifi-2025.7.14-py3-none-any.whl", hash = "sha256:6b31f564a415d79ee77df69d757bb49a5bb53bd9f756cbbe24394ffd6fc1f4b2", size = 162722 },
+    { url = "https://files.pythonhosted.org/packages/e5/48/1549795ba7742c948d2ad169c1c8cdbae65bc450d6cd753d124b17c8cd32/certifi-2025.8.3-py3-none-any.whl", hash = "sha256:f6c12493cfb1b06ba2ff328595af9350c65d6644968e5d3a2ffd78699af217a5", size = 161216 },
 ]
 
 [[package]]
@@ -399,7 +399,7 @@ wheels = [
 
 [[package]]
 name = "chainlit"
-version = "2.6.4"
+version = "2.6.5"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "aiofiles" },
@@ -426,9 +426,9 @@ dependencies = [
     { name = "uvicorn" },
     { name = "watchfiles" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/d2/9c/41f062131cf5eaf7fb04d5f4d07b4719146f3d1c99d1fb632da55af3fb76/chainlit-2.6.4.tar.gz", hash = "sha256:9387226d7738bffd31c3732cb57c1aaf9eca073bd0dd17cfb86e85907bf3ebd3", size = 9506327 }
+sdist = { url = "https://files.pythonhosted.org/packages/52/9d/48a8b0097b9287318cd3ac2396d9aba79f5a391f0aa5d30912bb90488eed/chainlit-2.6.5.tar.gz", hash = "sha256:9519f2c948095daf2dcc5de8f98a5919e2a1d77af713f18f66ec3508f32edf7e", size = 9506612 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/b0/71/7fcb7f7ba7cddc2e0b8f3cd179d48c39ea7cb2735d79672a882d40be9174/chainlit-2.6.4-py3-none-any.whl", hash = "sha256:aa1b51e5bab4869b3674b373b3fdccd3c21225282596757743c2a40118927676", size = 9653119 },
+    { url = "https://files.pythonhosted.org/packages/e0/94/31db8a18b74d875d8d45f3262e6c11b2958eeb9643bf9201f46d0f27c712/chainlit-2.6.5-py3-none-any.whl", hash = "sha256:0e04c8873eac2fbb1fda6103f572342348f9e654fb9fd2fbb5eb14bb5ceaadd0", size = 9655563 },
 ]
 
 [[package]]
@@ -499,14 +499,14 @@ wheels = [
 
 [[package]]
 name = "click"
-version = "8.2.2"
+version = "8.2.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "colorama", marker = "sys_platform == 'win32'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/e9/87/105111999772ec9730e3d4d910c723ea9763ece2ec441533a5cea1e87e3c/click-8.2.2.tar.gz", hash = "sha256:068616e6ef9705a07b6db727cb9c248f4eb9dae437a30239f56fa94b18b852ef", size = 263977 }
+sdist = { url = "https://files.pythonhosted.org/packages/60/6c/8ca2efa64cf75a977a0d7fac081354553ebe483345c734fb6b6515d96bbc/click-8.2.1.tar.gz", hash = "sha256:27c491cc05d968d271d5a1db13e3b5a184636d9d930f148c50b038f0d0646202", size = 286342 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ec/85/e7297e34133ae1cfde3bffd30c24e1ef055248251baa877834e048687a28/click-8.2.2-py3-none-any.whl", hash = "sha256:52e1e9f5d3db8c85aa76968c7c67ed41ddbacb167f43201511c8fd61eb5ba2ca", size = 103900 },
+    { url = "https://files.pythonhosted.org/packages/85/32/10bb5764d90a8eee674e9dc6f4db6a0ab47c8c4d0d83c27f7c39ac415a4d/click-8.2.1-py3-none-any.whl", hash = "sha256:61a3265b914e850b85317d0b3109c7f8cd35a670f963866005d6ef1d5175a12b", size = 102215 },
 ]
 
 [[package]]
@@ -1302,7 +1302,7 @@ wheels = [
 
 [[package]]
 name = "litellm"
-version = "1.74.14"
+version = "1.74.15.post1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "aiohttp" },
@@ -1317,10 +1317,7 @@ dependencies = [
     { name = "tiktoken" },
     { name = "tokenizers" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/d4/14/27b8891f696e5e17b3c2c866812b41b9be0ad337cdf248e2ddf77a7a2ecc/litellm-1.74.14.tar.gz", hash = "sha256:0e6029314a235dbce5d03376a48f7504a221b2e1e8b24f0b090ff3580a6e78be", size = 9745094 }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/c4/ad/e7f20769b6860881da864562d58ded0f4f6d49abc3bf2c214483b27b453d/litellm-1.74.14-py3-none-any.whl", hash = "sha256:39aad802d7aa3eabb1678552017d705fe76ba09fdeab8122206a24781ddc4248", size = 8828885 },
-]
+sdist = { url = "https://files.pythonhosted.org/packages/3e/fc/02bfc7dcf6276fbbd5acf0ebcb188f824cf6d4ee8013d7150458c77c7047/litellm-1.74.15.post1.tar.gz", hash = "sha256:8c0f73f89f15603afebbc912cb30ba6f18439eb12249f16a37646752fb76825e", size = 9711380 }
 
 [[package]]
 name = "literalai"
@@ -2576,7 +2573,7 @@ requires-dist = [
     { name = "openai-agents", specifier = ">=0.2.4" },
     { name = "protobuf", specifier = ">=5.29.5" },
     { name = "python-dotenv", specifier = ">=1.1.1" },
-    { name = "qdrant-client", specifier = ">=1.15.1" },
+    { name = "qdrant-client", specifier = "==1.15.1" },
     { name = "redis", specifier = ">=6.2.0" },
     { name = "tqdm", specifier = ">=4.67.1" },
 ]

@@ -24,13 +24,15 @@ from agents import (
 
 from qdrant_client import QdrantClient
 from qdrant_client.models import SearchParams
-
 from dotenv import load_dotenv
 load_dotenv()
 
 #---------------------------------------------------------------
 
 gemini_api_key = os.getenv("GEMINI_API_KEY")
+
+genai.configure(api_key=gemini_api_key)
+
 external_client = AsyncOpenAI(
     api_key=gemini_api_key,
     base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
@@ -65,12 +67,15 @@ def embed_query(text: str) -> list[float]:
 
 
 # --- Real Qdrant search tool ---
-@function_tool(is_enabled=True)
+@function_tool("search_vector_db")
 def search_vector_db(query: str) -> str:
     """Search Panaversity vector DB and return top documents."""
     try:
+        print(f"Running search_vector_db for query: {query}")
         vector = embed_query(query)
+        print(f"Vector length: {len(vector)}")
 
+#in future, if qdrant remove the search then have to use qdrant.query_points()
         results = qdrant.search(
             collection_name=COLLECTION_NAME,
             query_vector=vector,
@@ -79,6 +84,7 @@ def search_vector_db(query: str) -> str:
         )
 
         if not results:
+            print("No results from Qdrant.")
             return f"No relevant information found for: {query}"
 
         output = []
@@ -93,6 +99,7 @@ def search_vector_db(query: str) -> str:
         return "\n".join(output)
 
     except Exception as e:
+        print(f"Exception in search_vector_db: {e}")
         return f"Error during vector DB search: {e}"
 
 
@@ -124,6 +131,7 @@ async def main():
     result = await Runner.run(
         agent, "which courses are offered by panaversity?",
     )
+    print(f"last Agent : {result.last_agent}\n")
     print(f"Assistant: {result.final_output}\n")
 
 
